@@ -1,0 +1,2352 @@
+"src/camlp4/uTop_camlp4.cppo.ml" 14 242 258 "src/camlp4/uTop_camlp4.cppo.ml" 14 242 300
+call(
+  stack
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 19 307 311 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 331
+type(
+  'a -> 'a
+)
+ident(
+  def cast_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 22 344 344 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 19 307 332 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 333
+type(
+  'a
+)
+ident(
+  def x "src/camlp4/uTop_camlp4.cppo.ml" 19 307 336 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 337
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 19 307 336 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 337
+type(
+  'a
+)
+ident(
+  int_ref x "src/camlp4/uTop_camlp4.cppo.ml" 19 307 332 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 333
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 22 344 348 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 366
+type(
+  Format.formatter -> exn -> unit
+)
+ident(
+  def print_camlp4_error "src/camlp4/uTop_camlp4.cppo.ml" 26 470 470 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 22 344 367 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 369
+type(
+  Format.formatter
+)
+ident(
+  def pp "src/camlp4/uTop_camlp4.cppo.ml" 22 344 370 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 468
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 22 344 370 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 373
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 23 376 378 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 468
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 378 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 392
+type(
+  Format.formatter ->
+  ((Format.formatter -> exn -> unit) -> exn -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> exn -> unit) -> exn -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 393 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 395
+type(
+  Format.formatter
+)
+ident(
+  int_ref pp "src/camlp4/uTop_camlp4.cppo.ml" 22 344 367 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 369
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 396 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 407
+type(
+  ((Format.formatter -> exn -> unit) -> exn -> unit, Format.formatter, unit)
+  format
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 408 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 433
+type(
+  Format.formatter -> exn -> unit
+)
+ident(
+  ext_ref Camlp4.ErrorHandler.print
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 434 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 437
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 22 344 370 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 373
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 378 "src/camlp4/uTop_camlp4.cppo.ml" 23 376 437
+call(
+  stack
+)
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 24 439 441 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 462
+type(
+  Format.formatter -> unit -> unit
+)
+ident(
+  ext_ref Format.pp_print_flush
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 24 439 463 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 465
+type(
+  Format.formatter
+)
+ident(
+  int_ref pp "src/camlp4/uTop_camlp4.cppo.ml" 22 344 367 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 369
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 24 439 466 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 468
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 24 439 441 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 468
+call(
+  tail
+)
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 23 376 378 "src/camlp4/uTop_camlp4.cppo.ml" 24 439 468
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 26 470 474 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 498
+type(
+  exn -> (int * int) * string
+)
+ident(
+  def get_camlp4_error_message "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1007 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 26 470 499 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 502
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 27 505 507 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 27 505 511 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 514
+type(
+  int * int
+)
+ident(
+  def loc "src/camlp4/uTop_camlp4.cppo.ml" 34 678 680 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 27 505 516 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 519
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 34 678 680 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 27 505 511 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 519
+type(
+  (int * int) * exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 28 522 532 "src/camlp4/uTop_camlp4.cppo.ml" 28 522 535
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 26 470 499 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 502
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 29 541 566 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 569
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  def loc "src/camlp4/uTop_camlp4.cppo.ml" 30 579 589 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 633
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 29 541 571 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 574
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 30 579 589 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 633
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 29 541 549 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 575
+type(
+  exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 591 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 604
+type(
+  Camlp4.PreCast.Loc.t -> int
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.start_off
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 605 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 608
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 29 541 566 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 569
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 591 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 608
+call(
+  stack
+)
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 610 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 622
+type(
+  Camlp4.PreCast.Loc.t -> int
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.stop_off
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 623 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 626
+type(
+  Camlp4.PreCast.Loc.t
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 29 541 566 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 569
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 610 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 626
+call(
+  stack
+)
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 590 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 627
+type(
+  int * int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 629 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 632
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 29 541 571 "src/camlp4/uTop_camlp4.cppo.ml" 29 541 574
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 30 579 589 "src/camlp4/uTop_camlp4.cppo.ml" 30 579 633
+type(
+  (int * int) * exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 31 634 642 "src/camlp4/uTop_camlp4.cppo.ml" 31 634 645
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 32 649 659 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 672
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 32 649 661 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 662
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 32 649 664 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 665
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 32 649 660 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 666
+type(
+  int * int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 32 649 668 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 671
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 31 634 642 "src/camlp4/uTop_camlp4.cppo.ml" 31 634 645
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 32 649 659 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 672
+type(
+  (int * int) * exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 28 522 526 "src/camlp4/uTop_camlp4.cppo.ml" 32 649 672
+type(
+  (int * int) * exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 36 801 803 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 690 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 706
+type(
+  (Format.formatter -> exn -> unit) -> exn -> string
+)
+ident(
+  ext_ref UTop.get_message
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 707 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 725
+type(
+  Format.formatter -> exn -> unit
+)
+ident(
+  int_ref print_camlp4_error "src/camlp4/uTop_camlp4.cppo.ml" 22 344 348 "src/camlp4/uTop_camlp4.cppo.ml" 22 344 366
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 726 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 729
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 27 505 516 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 519
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 690 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 729
+call(
+  stack
+)
+type(
+  string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+type(
+  int ref
+)
+ident(
+  def idx "src/camlp4/uTop_camlp4.cppo.ml" 37 844 846 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 813 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 816
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 818 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 831
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 832 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 835
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 818 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 835
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 836 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 837
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 838 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 839
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 817 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 840
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 813 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 840
+type(
+  int ref
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 852 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 853
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 853 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 856
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 852 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 856
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 857 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 858
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 859 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 860
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 852 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 860
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 861 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 863
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 864 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 867
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 869 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 870
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 870 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 873
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 869 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 873
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 864 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 874
+type(
+  char
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 875 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 876
+type(
+  char -> char -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 877 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 881
+type(
+  char
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 864 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 881
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 852 "src/camlp4/uTop_camlp4.cppo.ml" 37 844 881
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 38 885 889 "src/camlp4/uTop_camlp4.cppo.ml" 38 885 893
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.decr
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 38 885 894 "src/camlp4/uTop_camlp4.cppo.ml" 38 885 897
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 38 885 889 "src/camlp4/uTop_camlp4.cppo.ml" 38 885 897
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 846 "src/camlp4/uTop_camlp4.cppo.ml" 39 898 904
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 911 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 912
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 912 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 915
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 911 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 915
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 916 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 917
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 918 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 919
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 911 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 919
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 920 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 921
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 922 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 935
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 936 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 939
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 922 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 939
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 911 "src/camlp4/uTop_camlp4.cppo.ml" 40 906 939
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 950 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 953
+type(
+  int * int
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 27 505 511 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 514
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 955 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 965
+type(
+  string -> int -> int -> string
+)
+ident(
+  ext_ref String.sub
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 966 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 969
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 970 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 971
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 973 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 974
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 974 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 977
+type(
+  int ref
+)
+ident(
+  int_ref idx "src/camlp4/uTop_camlp4.cppo.ml" 36 801 807 "src/camlp4/uTop_camlp4.cppo.ml" 36 801 810
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 973 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 977
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 978 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 979
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 980 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 981
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 972 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 982
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 955 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 982
+call(
+  stack
+)
+type(
+  string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 41 945 949 "src/camlp4/uTop_camlp4.cppo.ml" 41 945 983
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 43 991 996 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 999
+type(
+  int * int
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 27 505 511 "src/camlp4/uTop_camlp4.cppo.ml" 27 505 514
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 43 991 1001 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1004
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 34 678 684 "src/camlp4/uTop_camlp4.cppo.ml" 34 678 687
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 43 991 995 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 40 906 908 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 37 844 846 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 36 801 803 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 34 678 680 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 27 505 507 "src/camlp4/uTop_camlp4.cppo.ml" 43 991 1005
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1011 "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1041
+type(
+  Camlp4.PreCast.Ast.str_item -> Parsetree.toplevel_phrase UTop.result
+)
+ident(
+  def convert_camlp4_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1206 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1042 "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1045
+type(
+  Camlp4.PreCast.Ast.str_item
+)
+ident(
+  def ast "src/camlp4/uTop_camlp4.cppo.ml" 46 1048 1050 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1070 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1090
+type(
+  Parsetree.toplevel_phrase -> Parsetree.toplevel_phrase
+)
+ident(
+  int_ref cast_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 19 307 311 "src/camlp4/uTop_camlp4.cppo.ml" 19 307 331
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1092 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1105
+type(
+  Camlp4.PreCast.Ast.str_item -> Parsetree.toplevel_phrase
+)
+ident(
+  ext_ref Ast2pt.phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1106 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1109
+type(
+  Camlp4.PreCast.Ast.str_item
+)
+ident(
+  int_ref ast "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1042 "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1045
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1091 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1110
+call(
+  stack
+)
+type(
+  Parsetree.toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1069 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1111
+call(
+  stack
+)
+type(
+  Parsetree.toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1058 "src/camlp4/uTop_camlp4.cppo.ml" 47 1054 1111
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 48 1112 1119 "src/camlp4/uTop_camlp4.cppo.ml" 48 1112 1122
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1130 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1134 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1137
+type(
+  int * int
+)
+ident(
+  def loc "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1181 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1139 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1142
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1181 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1134 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1142
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1145 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1169
+type(
+  exn -> (int * int) * string
+)
+ident(
+  int_ref get_camlp4_error_message "src/camlp4/uTop_camlp4.cppo.ml" 26 470 474 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 498
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1170 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1173
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 48 1112 1119 "src/camlp4/uTop_camlp4.cppo.ml" 48 1112 1122
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1145 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1173
+call(
+  stack
+)
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1194 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1197
+type(
+  UTop.location
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1134 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1137
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1193 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1198
+type(
+  UTop.location list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1200 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1203
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1139 "src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1142
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1181 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 49 1126 1130 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 46 1048 1050 "src/camlp4/uTop_camlp4.cppo.ml" 50 1177 1204
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1210 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1222
+type(
+  'a Camlp4.PreCast.Gram.Entry.t -> string -> bool -> 'a UTop.result
+)
+ident(
+  def parse_camlp4 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1919 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1223 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1229
+type(
+  'a Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  def syntax "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1230 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1230 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1233
+type(
+  string
+)
+ident(
+  def str "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1234 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1234 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1246
+type(
+  bool
+)
+ident(
+  def eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1288 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1288 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1320
+type(
+  (string * (unit -> unit) -> unit) -> unit
+)
+ident(
+  ext_ref Camlp4.Register.iter_and_take_callbacks
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1327 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1328
+type(
+  string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1330 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1331
+type(
+  unit -> unit
+)
+ident(
+  def f "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1336 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1340
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1326 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1332
+type(
+  string * (unit -> unit)
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1336 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1337
+type(
+  unit -> unit
+)
+ident(
+  int_ref f "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1330 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1331
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1338 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1340
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1336 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1340
+call(
+  tail
+)
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1321 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1341
+type(
+  string * (unit -> unit) -> unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1288 "src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1341
+call(
+  stack
+)
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1349 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1352
+type(
+  bool ref
+)
+ident(
+  def eof "src/camlp4/uTop_camlp4.cppo.ml" 56 1368 1370 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1355 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1358
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1359 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1364
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1355 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1364
+type(
+  bool ref
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1382 "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1385
+type(
+  int
+)
+ident(
+  def len "src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1413 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1388 "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1401
+type(
+  string -> int
+)
+ident(
+  ext_ref String.length
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1402 "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1405
+type(
+  string
+)
+ident(
+  int_ref str "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1230 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1233
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1388 "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1405
+type(
+  int
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1417 "src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1428
+type(
+  char Stream.t
+)
+ident(
+  def char_stream "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1598 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 59 1431 1437 "src/camlp4/uTop_camlp4.cppo.ml" 59 1431 1448
+type(
+  (int -> char option) -> char Stream.t
+)
+ident(
+  ext_ref Stream.from
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1462 "src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1463
+type(
+  int
+)
+ident(
+  def i "src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1477 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1585
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1480 "src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1481
+type(
+  int
+)
+ident(
+  int_ref i "src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1462 "src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1463
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1482 "src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1484
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1485 "src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1488
+type(
+  int
+)
+ident(
+  int_ref len "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1382 "src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1385
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1480 "src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1488
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1512 "src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1515
+type(
+  bool ref
+)
+ident(
+  int_ref eof "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1349 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1352
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1516 "src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1518
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1519 "src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1523
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1512 "src/camlp4/uTop_camlp4.cppo.ml" 62 1500 1523
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 63 1525 1537 "src/camlp4/uTop_camlp4.cppo.ml" 63 1525 1541
+type(
+  char option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1494 "src/camlp4/uTop_camlp4.cppo.ml" 64 1542 1555
+type(
+  char option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1578 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1581
+type(
+  string
+)
+ident(
+  int_ref str "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1230 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1233
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1583 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1584
+type(
+  int
+)
+ident(
+  int_ref i "src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1462 "src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1463
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1578 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1585
+type(
+  char
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1573 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1585
+type(
+  char option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 61 1467 1477 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1585
+type(
+  char option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 60 1449 1457 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1586
+type(
+  int -> char option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 59 1431 1437 "src/camlp4/uTop_camlp4.cppo.ml" 65 1561 1586
+call(
+  stack
+)
+type(
+  char Stream.t
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1602 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1614
+type(
+  Camlp4.PreCast.Gram.token_stream
+)
+ident(
+  def token_stream "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1684 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1617 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1628
+type(
+  (Camlp4.PreCast.Gram.Token.t * Camlp4.PreCast.Gram.Loc.t) Stream.t
+  Camlp4.PreCast.Gram.not_filtered -> Camlp4.PreCast.Gram.token_stream
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.filter
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1630 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1638
+type(
+  Camlp4.PreCast.Gram.Loc.t ->
+  char Stream.t ->
+  (Camlp4.PreCast.Gram.Token.t * Camlp4.PreCast.Gram.Loc.t) Stream.t
+  Camlp4.PreCast.Gram.not_filtered
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.lex
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1640 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1646
+type(
+  string -> Camlp4.PreCast.Gram.Loc.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Loc.mk
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1647 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1662
+type(
+  string
+)
+ident(
+  ext_ref UTop.input_name
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1639 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1663
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Gram.Loc.t
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1664 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1675
+type(
+  char Stream.t
+)
+ident(
+  int_ref char_stream "src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1417 "src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1428
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1629 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1676
+call(
+  stack
+)
+type(
+  (Camlp4.PreCast.Gram.Token.t * Camlp4.PreCast.Gram.Loc.t) Stream.t
+  Camlp4.PreCast.Gram.not_filtered
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1617 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1676
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Gram.token_stream
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1696 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1726
+type(
+  'a Camlp4.PreCast.Gram.Entry.t -> Camlp4.PreCast.Gram.token_stream -> 'a
+)
+ident(
+  ext_ref Camlp4.PreCast.Gram.parse_tokens_after_filter
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1727 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1733
+type(
+  'a Camlp4.PreCast.Gram.Entry.t
+)
+ident(
+  int_ref syntax "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1223 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1229
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1734 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1746
+type(
+  Camlp4.PreCast.Gram.token_stream
+)
+ident(
+  int_ref token_stream "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1602 "src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1614
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1695 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+call(
+  stack
+)
+type(
+  'a
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1684 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 67 1594 1598 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 58 1409 1413 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 57 1374 1378 "src/camlp4/uTop_camlp4.cppo.ml" 68 1680 1747
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 69 1748 1755 "src/camlp4/uTop_camlp4.cppo.ml" 69 1748 1758
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1766 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1769 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1770
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1770 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1773
+type(
+  bool ref
+)
+ident(
+  int_ref eof "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1349 "src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1352
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1769 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1773
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1774 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1776
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1777 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1780
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1781 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1793
+type(
+  bool
+)
+ident(
+  int_ref eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1234 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1246
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1777 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1793
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1769 "src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1793
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1805 "src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1810
+type(
+  exn -> 'a UTop.result
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1811 "src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1825
+type(
+  exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1805 "src/camlp4/uTop_camlp4.cppo.ml" 71 1799 1825
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1845 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1848
+type(
+  int * int
+)
+ident(
+  def loc "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1894 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1850 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1853
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1894 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1845 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1853
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1856 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1880
+type(
+  exn -> (int * int) * string
+)
+ident(
+  int_ref get_camlp4_error_message "src/camlp4/uTop_camlp4.cppo.ml" 26 470 474 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 498
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1881 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1884
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 69 1748 1755 "src/camlp4/uTop_camlp4.cppo.ml" 69 1748 1758
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1856 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1884
+call(
+  stack
+)
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1907 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1910
+type(
+  UTop.location
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1845 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1848
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1906 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1911
+type(
+  UTop.location list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1913 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1916
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1850 "src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1853
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1894 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 73 1835 1841 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 70 1762 1766 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 56 1368 1370 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 55 1343 1345 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 54 1286 1288 "src/camlp4/uTop_camlp4.cppo.ml" 74 1888 1917
+type(
+  'a UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1923 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1929
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  def filter "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2127 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1930 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1936
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  def phrase "src/camlp4/uTop_camlp4.cppo.ml" 77 1939 1941 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 1961 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 1994
+type(
+  (Camlp4.PreCast.AstFilters.Ast.str_item ->
+   Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter ->
+   Camlp4.PreCast.AstFilters.Ast.str_item) ->
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  ext_ref Camlp4.PreCast.AstFilters.fold_topphrase_filters
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2000 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2001
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  def t "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2002 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2020
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2002 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2008
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter
+)
+ident(
+  def filter "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2012 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2020
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2012 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2018
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter
+)
+ident(
+  int_ref filter "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2002 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2008
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2019 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2020
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  int_ref t "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2000 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2001
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2012 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2020
+call(
+  tail
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 1995 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2021
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Camlp4.PreCast.AstFilters.Ast.str_item Camlp4.PreCast.AstFilters.filter ->
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2022 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2028
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  int_ref phrase "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1930 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1936
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 1960 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2029
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 78 1945 1949 "src/camlp4/uTop_camlp4.cppo.ml" 78 1945 2029
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 79 2030 2037 "src/camlp4/uTop_camlp4.cppo.ml" 79 2030 2040
+type(
+  exn
+)
+ident(
+  def exn "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2048 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2052 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2055
+type(
+  int * int
+)
+ident(
+  def loc "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2099 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2057 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2060
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2099 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2052 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2060
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2063 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2087
+type(
+  exn -> (int * int) * string
+)
+ident(
+  int_ref get_camlp4_error_message "src/camlp4/uTop_camlp4.cppo.ml" 26 470 474 "src/camlp4/uTop_camlp4.cppo.ml" 26 470 498
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2088 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2091
+type(
+  exn
+)
+ident(
+  int_ref exn "src/camlp4/uTop_camlp4.cppo.ml" 79 2030 2037 "src/camlp4/uTop_camlp4.cppo.ml" 79 2030 2040
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2063 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2091
+call(
+  stack
+)
+type(
+  (int * int) * string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2112 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2115
+type(
+  UTop.location
+)
+ident(
+  int_ref loc "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2052 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2055
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2111 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2116
+type(
+  UTop.location list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2118 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2121
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2057 "src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2060
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2099 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 80 2044 2048 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 77 1939 1941 "src/camlp4/uTop_camlp4.cppo.ml" 81 2095 2122
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2131 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2159
+type(
+  string -> bool -> Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  def parse_toplevel_phrase_camlp4 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2408 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2160 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2163
+type(
+  string
+)
+ident(
+  def str "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2164 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2164 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2176
+type(
+  bool
+)
+ident(
+  def eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2181 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2187 "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2199
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option
+  Camlp4.PreCast.Syntax.Gram.Entry.t ->
+  string -> bool -> Camlp4.PreCast.Syntax.Ast.str_item option UTop.result
+)
+ident(
+  int_ref parse_camlp4 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1210 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1222
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2200 "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2217
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option
+  Camlp4.PreCast.Syntax.Gram.Entry.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Syntax.top_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2218 "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2221
+type(
+  string
+)
+ident(
+  int_ref str "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2160 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2163
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2222 "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2234
+type(
+  bool
+)
+ident(
+  int_ref eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2164 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2176
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2187 "src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2234
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 86 2240 2257 "src/camlp4/uTop_camlp4.cppo.ml" 86 2240 2261
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 86 2240 2246 "src/camlp4/uTop_camlp4.cppo.ml" 86 2240 2261
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2273 "src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2278
+type(
+  exn -> Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2279 "src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2293
+type(
+  exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2273 "src/camlp4/uTop_camlp4.cppo.ml" 87 2265 2293
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2317 "src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2320
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item
+)
+ident(
+  def ast "src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2333 "src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2343
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2311 "src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2321
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2300 "src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2321
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2333 "src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2339
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  int_ref filter "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1923 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1929
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2340 "src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2343
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item
+)
+ident(
+  int_ref ast "src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2317 "src/camlp4/uTop_camlp4.cppo.ml" 88 2294 2320
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2333 "src/camlp4/uTop_camlp4.cppo.ml" 89 2325 2343
+call(
+  tail
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2362 "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2366
+type(
+  UTop.location list
+)
+ident(
+  def locs "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2384 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2368 "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2371
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2384 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2350 "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2372
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item option UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2396 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2400
+type(
+  UTop.location list
+)
+ident(
+  int_ref locs "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2362 "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2366
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2402 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2405
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2368 "src/camlp4/uTop_camlp4.cppo.ml" 90 2344 2371
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2384 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 85 2179 2181 "src/camlp4/uTop_camlp4.cppo.ml" 91 2376 2406
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2412 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2433
+type(
+  string -> bool -> Parsetree.toplevel_phrase UTop.result
+)
+ident(
+  def parse_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2643 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2434 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2437
+type(
+  string
+)
+ident(
+  def str "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2438 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2438 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2450
+type(
+  bool
+)
+ident(
+  def eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2455 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2461 "src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2489
+type(
+  string -> bool -> Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  int_ref parse_toplevel_phrase_camlp4 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2131 "src/camlp4/uTop_camlp4.cppo.ml" 84 2127 2159
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2490 "src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2493
+type(
+  string
+)
+ident(
+  int_ref str "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2434 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2437
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2494 "src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2506
+type(
+  bool
+)
+ident(
+  int_ref eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2438 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2450
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2461 "src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2506
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2529 "src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2532
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  def ast "src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2544 "src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2578
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2518 "src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2532
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2544 "src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2574
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Parsetree.toplevel_phrase UTop.result
+)
+ident(
+  int_ref convert_camlp4_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1011 "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1041
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2575 "src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2578
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  int_ref ast "src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2529 "src/camlp4/uTop_camlp4.cppo.ml" 95 2512 2532
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2544 "src/camlp4/uTop_camlp4.cppo.ml" 96 2536 2578
+call(
+  tail
+)
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2597 "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2601
+type(
+  UTop.location list
+)
+ident(
+  def locs "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2619 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2603 "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2606
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2619 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2585 "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2607
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2631 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2635
+type(
+  UTop.location list
+)
+ident(
+  int_ref locs "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2597 "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2601
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2637 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2640
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2603 "src/camlp4/uTop_camlp4.cppo.ml" 97 2579 2606
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2619 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 94 2453 2455 "src/camlp4/uTop_camlp4.cppo.ml" 98 2611 2641
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2647 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2661
+type(
+  string -> bool -> Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  def parse_use_file "src/camlp4/uTop_camlp4.cppo.ml" 118 3275 3275 "src/camlp4/uTop_camlp4.ml" 1 0 -1
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2662 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2665
+type(
+  string
+)
+ident(
+  def str "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2666 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2666 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2678
+type(
+  bool
+)
+ident(
+  def eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2683 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2689 "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2701
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  Camlp4.PreCast.Syntax.Gram.Entry.t ->
+  string ->
+  bool ->
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  UTop.result
+)
+ident(
+  int_ref parse_camlp4 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1210 "src/camlp4/uTop_camlp4.cppo.ml" 52 1206 1222
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2702 "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2717
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  Camlp4.PreCast.Syntax.Gram.Entry.t
+)
+ident(
+  ext_ref Camlp4.PreCast.Syntax.use_file
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2718 "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2721
+type(
+  string
+)
+ident(
+  int_ref str "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2662 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2665
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2722 "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2734
+type(
+  bool
+)
+ident(
+  int_ref eos_is_error "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2666 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2678
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2689 "src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2734
+call(
+  stack
+)
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2758 "src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2760
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2762 "src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2763
+type(
+  Camlp4.PreCast.Syntax.Loc.t option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2757 "src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2764
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item list *
+  Camlp4.PreCast.Syntax.Loc.t option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2746 "src/camlp4/uTop_camlp4.cppo.ml" 102 2740 2764
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2774 "src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2779
+type(
+  exn -> Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2780 "src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2794
+type(
+  exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2774 "src/camlp4/uTop_camlp4.cppo.ml" 103 2768 2794
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2813 "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2817
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item list
+)
+ident(
+  def asts "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2831 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3210
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2819 "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2820
+type(
+  Camlp4.PreCast.Syntax.Loc.t option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2812 "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2821
+type(
+  Camlp4.PreCast.Syntax.Ast.str_item list *
+  Camlp4.PreCast.Syntax.Loc.t option
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2801 "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2821
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2839 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2843
+type(
+  Parsetree.toplevel_phrase list ->
+  Camlp4.PreCast.AstFilters.Ast.str_item list ->
+  Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  def loop "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2831 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3210
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2844 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2851
+type(
+  Parsetree.toplevel_phrase list
+)
+ident(
+  def phrases "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2854 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2873 "src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2875
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2891 "src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2899
+type(
+  Parsetree.toplevel_phrase list -> Parsetree.toplevel_phrase list
+)
+ident(
+  ext_ref List.rev
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2900 "src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2907
+type(
+  Parsetree.toplevel_phrase list
+)
+ident(
+  int_ref phrases "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2844 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2851
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2890 "src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2908
+call(
+  stack
+)
+type(
+  Parsetree.toplevel_phrase list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2879 "src/camlp4/uTop_camlp4.cppo.ml" 106 2863 2908
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2920 "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2923
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  def ast "src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2949 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2925 "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2934
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list
+)
+ident(
+  def more_asts "src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2949 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2919 "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2935
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2955 "src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2961
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+ident(
+  int_ref filter "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1923 "src/camlp4/uTop_camlp4.cppo.ml" 76 1919 1929
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2962 "src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2965
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  int_ref ast "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2920 "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2923
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2955 "src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2965
+call(
+  stack
+)
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2994 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2995
+type(
+  string
+)
+type(
+  UTop.location list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2983 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2995
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2999 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3000
+ident(
+  def e "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3004 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3005
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2983 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3000
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3004 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3005
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  int_ref e "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 2983 "src/camlp4/uTop_camlp4.cppo.ml" 109 2971 3000
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3029 "src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3032
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  def ast "src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3048 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3018 "src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3032
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3054 "src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3084
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item ->
+  Parsetree.toplevel_phrase UTop.result
+)
+ident(
+  int_ref convert_camlp4_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1011 "src/camlp4/uTop_camlp4.cppo.ml" 45 1007 1041
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3085 "src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3088
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item
+)
+ident(
+  int_ref ast "src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3029 "src/camlp4/uTop_camlp4.cppo.ml" 110 3006 3032
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3054 "src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3088
+call(
+  stack
+)
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3119 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3120
+type(
+  string
+)
+type(
+  UTop.location list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3108 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3120
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3124 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3125
+ident(
+  def e "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3129 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3130
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3108 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3125
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3129 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3130
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  int_ref e "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3108 "src/camlp4/uTop_camlp4.cppo.ml" 112 3094 3125
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3156 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3157
+type(
+  Parsetree.toplevel_phrase
+)
+ident(
+  def y "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3161 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3145 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3157
+type(
+  Parsetree.toplevel_phrase UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3161 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3165
+type(
+  Parsetree.toplevel_phrase list ->
+  Camlp4.PreCast.AstFilters.Ast.str_item list ->
+  Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  int_ref loop "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2839 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2843
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3167 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3168
+type(
+  Parsetree.toplevel_phrase
+)
+ident(
+  int_ref y "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3156 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3157
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3170 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3177
+type(
+  Parsetree.toplevel_phrase list
+)
+ident(
+  int_ref phrases "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2844 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2851
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3166 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3178
+type(
+  Parsetree.toplevel_phrase list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3179 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list
+)
+ident(
+  int_ref more_asts "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2925 "src/camlp4/uTop_camlp4.cppo.ml" 107 2909 2934
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3161 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+call(
+  tail
+)
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 111 3036 3048 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 108 2939 2949 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2854 "src/camlp4/uTop_camlp4.cppo.ml" 113 3131 3188
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list ->
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3198 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3202
+type(
+  Parsetree.toplevel_phrase list ->
+  Camlp4.PreCast.AstFilters.Ast.str_item list ->
+  Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  int_ref loop "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2839 "src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2843
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3203 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3205
+type(
+  Parsetree.toplevel_phrase list
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3206 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3210
+type(
+  Camlp4.PreCast.AstFilters.Ast.str_item list
+)
+ident(
+  int_ref asts "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2813 "src/camlp4/uTop_camlp4.cppo.ml" 104 2795 2817
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3198 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3210
+call(
+  tail
+)
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 105 2825 2831 "src/camlp4/uTop_camlp4.cppo.ml" 114 3189 3210
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3229 "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3233
+type(
+  UTop.location list
+)
+ident(
+  def locs "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3251 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3235 "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3238
+type(
+  string
+)
+ident(
+  def msg "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3251 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3217 "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3239
+type(
+  (Camlp4.PreCast.Syntax.Ast.str_item list *
+   Camlp4.PreCast.Syntax.Loc.t option)
+  UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3263 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3267
+type(
+  UTop.location list
+)
+ident(
+  int_ref locs "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3229 "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3233
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3269 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3272
+type(
+  string
+)
+ident(
+  int_ref msg "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3235 "src/camlp4/uTop_camlp4.cppo.ml" 115 3211 3238
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3251 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 101 2681 2683 "src/camlp4/uTop_camlp4.cppo.ml" 116 3243 3273
+type(
+  Parsetree.toplevel_phrase list UTop.result
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 118 3275 3279 "src/camlp4/uTop_camlp4.cppo.ml" 118 3275 3281
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3286 "src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3312
+type(
+  (string -> bool -> Parsetree.toplevel_phrase UTop.result) ref
+)
+ident(
+  ext_ref UTop.parse_toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3313 "src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3315
+type(
+  (string -> bool -> Parsetree.toplevel_phrase UTop.result) ref ->
+  (string -> bool -> Parsetree.toplevel_phrase UTop.result) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3316 "src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3337
+type(
+  string -> bool -> Parsetree.toplevel_phrase UTop.result
+)
+ident(
+  int_ref parse_toplevel_phrase "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2412 "src/camlp4/uTop_camlp4.cppo.ml" 93 2408 2433
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3286 "src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3337
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3341 "src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3360
+type(
+  (string -> bool -> Parsetree.toplevel_phrase list UTop.result) ref
+)
+ident(
+  ext_ref UTop.parse_use_file
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3361 "src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3363
+type(
+  (string -> bool -> Parsetree.toplevel_phrase list UTop.result) ref ->
+  (string -> bool -> Parsetree.toplevel_phrase list UTop.result) -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3364 "src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3378
+type(
+  string -> bool -> Parsetree.toplevel_phrase list UTop.result
+)
+ident(
+  int_ref parse_use_file "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2647 "src/camlp4/uTop_camlp4.cppo.ml" 100 2643 2661
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3341 "src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3378
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3446 "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3457
+type(
+  bool
+)
+ident(
+  def interactive "src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3482 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3460 "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3461
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3461 "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3476
+type(
+  bool ref
+)
+ident(
+  ext_ref Sys.interactive
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3460 "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3476
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3482 "src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3497
+type(
+  bool ref
+)
+ident(
+  ext_ref Sys.interactive
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3498 "src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3500
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3501 "src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3506
+type(
+  bool
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3482 "src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3506
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 124 3508 3514 "src/camlp4/uTop_camlp4.cppo.ml" 124 3508 3516
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3533 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3539
+type(
+  Parsetree.toplevel_phrase -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3541 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3542
+type(
+  (Lexing.lexbuf -> Parsetree.toplevel_phrase) ref ->
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3542 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3571
+type(
+  (Lexing.lexbuf -> Parsetree.toplevel_phrase) ref
+)
+ident(
+  ext_ref Toploop.parse_toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3541 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3571
+type(
+  Lexing.lexbuf -> Parsetree.toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3573 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3591
+type(
+  string -> Lexing.lexbuf
+)
+ident(
+  ext_ref Lexing.from_string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3592 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3594
+type(
+  string
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3572 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3595
+call(
+  stack
+)
+type(
+  Lexing.lexbuf
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3540 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3596
+call(
+  stack
+)
+type(
+  Parsetree.toplevel_phrase
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3533 "src/camlp4/uTop_camlp4.cppo.ml" 126 3527 3596
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 127 3597 3606 "src/camlp4/uTop_camlp4.cppo.ml" 127 3597 3607
+type(
+  exn
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 128 3611 3617 "src/camlp4/uTop_camlp4.cppo.ml" 128 3611 3619
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 125 3519 3523 "src/camlp4/uTop_camlp4.cppo.ml" 128 3611 3619
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3627 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3642
+type(
+  bool ref
+)
+ident(
+  ext_ref Sys.interactive
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3643 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3645
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3646 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  bool
+)
+ident(
+  int_ref interactive "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3446 "src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3457
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3627 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 124 3508 3510 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 123 3480 3482 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 122 3440 3442 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 120 3339 3341 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)
+"src/camlp4/uTop_camlp4.cppo.ml" 119 3284 3286 "src/camlp4/uTop_camlp4.cppo.ml" 130 3625 3657
+type(
+  unit
+)

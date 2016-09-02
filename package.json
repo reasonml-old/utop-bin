@@ -1,0 +1,55 @@
+{
+  "name": "utop-bin",
+  "version": "1.19.2",
+  "description": "bin wrapper for utop",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "eval $(dependencyEnv) && nopam && make install"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "exportedEnvVars": {
+      "utop_version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "1.19.2"
+      },
+      "utop_enable": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "enable"
+      },
+      "FINDLIB": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/lib"
+      },
+      "version": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "1.19.2"
+      },
+      "PATH": {
+          "global": true,
+          "resolveAsRelativePath": true,
+          "globalCollisionBehavior": "joinPath",
+          "val": "./_build/ocamlfind/bin"
+      },
+      "utop_installed": {
+          "global": true,
+          "globalCollisionBehavior": "clobber",
+          "val": "true"
+      }
+  },
+  "dependencies": {
+    "ocamlfind": "https://github.com/npm-opam/ocamlfind.git",
+    "nopam": "https://github.com/yunxing/nopam.git",
+    "react-bin": "https://github.com/reasonml/react-bin",
+    "lambda-term-bin": "https://github.com/reasonml/lambda-term-bin",
+    "lwt-bin": "https://github.com/reasonml/lwt-bin",
+    "dependency-env": "https://github.com/npm-ml/dependency-env.git",
+    "camomile-bin": "https://github.com/reasonml/camomile-bin"
+  }
+}
