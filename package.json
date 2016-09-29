@@ -44,7 +44,7 @@
       }
   },
   "dependencies": {
-    "ocamlfind": "https://github.com/npm-opam/ocamlfind.git",
+    "@opam-alpha/ocamlfind": "*",
     "nopam": "https://github.com/yunxing/nopam.git",
     "react-bin": "https://github.com/reasonml/react-bin",
     "lambda-term-bin": "https://github.com/reasonml/lambda-term-bin",
