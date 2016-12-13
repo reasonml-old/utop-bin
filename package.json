@@ -45,11 +45,11 @@
   },
   "dependencies": {
     "@opam-alpha/ocamlfind": "*",
-    "nopam": "https://github.com/yunxing/nopam.git",
+    "nopam": "^0.1.0",
     "react-bin": "https://github.com/reasonml/react-bin",
     "lambda-term-bin": "https://github.com/reasonml/lambda-term-bin",
     "lwt-bin": "https://github.com/reasonml/lwt-bin",
-    "dependency-env": "https://github.com/npm-ml/dependency-env.git",
+    "dependency-env": "^0.0.1",
     "camomile-bin": "https://github.com/reasonml/camomile-bin"
   }
 }
